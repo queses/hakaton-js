@@ -1,18 +1,22 @@
 const express = require('express')
-const bodyParser = require('body-parser');
+const bodyParser = require('body-parser')
+const Event = require('./models/event')
+const routeEvent = require('./routes/event') 
+const db = require("./utils/get_db")
+
 
 const app = express()
-
-// создаем парсер для данных application/x-www-form-urlencoded
-var urlencodedParser = bodyParser.urlencoded({extended: false});
+ 
+// Создаем парсер для данных application/x-www-form-urlencoded
+var urlencodedParser = bodyParser.urlencoded({extended: true});
 
 app.use(express.static(__dirname + "/static"))
 app.use(urlencodedParser)
+app.use(bodyParser.json());
+app.use(routeEvent)
 
-app.post('/event', (req, res) => {
-    if(!req.body) return response.sendStatus(400);
-    console.log(req.body);
-    res.json({ ok: true });
+app.get('/', (req, res) => {
+    res.send(':)')
 })
 
 app.listen(3000, err => {

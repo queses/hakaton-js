@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root_table>
+  <string number="1">
+    <cell name="Наименование организации">
+      <value>Акционерное общество "Управление теплоснабжения и инженерных сетей"</value>
+    </cell>
+    <cell name="Улица">
+      <value>Чехова</value>
+    </cell>
+    <cell name="Дом">
+      <value>81</value>
+    </cell>
+    <cell name="Телефон">
+      <value>8(3467)32-69-71</value>
+    </cell>
+    <cell name="ФИО руководителя">
+      <value>Горбачев Юрий Иванович</value>
+    </cell>
+    <cell name="Сайт">
+      <value>uts-hm.ru</value>
+    </cell>
+    <cell name="Электронная почта">
+      <value>uts@uts-hm.ru</value>
+    </cell>
+    <cell name="Наименование геообъекта">
+      <value>ОАО"УТС"</value>
+    </cell>
+    <cell name="Геокоординаты">
+      <value>61.004846, 69.055257</value>
+    </cell>
+  </string>
+  <string number="2">
+    <cell name="Наименование организации">
+      <value>Общество с ограниченной ответственностью УК "Жилищное управление"</value>
+    </cell>
+    <cell name="Улица">
+      <value>Дзержинского</value>
+    </cell>
+    <cell name="Дом">
+      <value>25</value>
+    </cell>
+    <cell name="Телефон">
+      <value>8(3467)32-43-24</value>
+    </cell>
+    <cell name="ФИО руководителя">
+      <value>Шавлюков Николай Александрович</value>
+    </cell>
+    <cell name="Сайт">
+      <value>ukguhm.jkh.su</value>
+    </cell>
+    <cell name="Электронная почта">
+      <value>uk-hmr@mail.ru</value>
+    </cell>
+    <cell name="Наименование геообъекта">
+      <value>ООО"Жилищное управление"</value>
+    </cell>
+    <cell name="Геокоординаты">
+      <value>61.009630, 69.018956</value>
+    </cell>
+  </string>
+  <string number="3">
+    <cell name="Наименование организации">
+      <value>Общество с ограниченной ответственностью Иртыш </value>
+    </cell>
+    <cell name="Улица">
+      <value>Рознина</value>
+    </cell>
+    <cell name="Дом">
+      <value>46</value>
+    </cell>
+    <cell name="Телефон">
+      <value>8(3467)32-13-75</value>
+    </cell>
+    <cell name="ФИО руководителя">
+      <value>Дудник Татьяна Васильевна</value>
+    </cell>
+    <cell name="Сайт">
+      <value>-</value>
+    </cell>
+    <cell name="Электронная почта">
+      <value>tatyana.dudnik.66@mail.ru</value>
+    </cell>
+    <cell name="Наименование геообъекта">
+      <value>ООО"Иртыш"</value>
+    </cell>
+    <cell name="Геокоординаты">
+      <value>61.003777, 69.003469</value>
+    </cell>
+  </string>
+  <string number="4">
+    <cell name="Наименование организации">
+      <value>Общество с ограниченной ответственностью "Новый город"</value>
+    </cell>
+    <cell name="Улица">
+      <value>Дунина-Горкавича</value>
+    </cell>
+    <cell name="Дом">
+      <value>13</value>
+    </cell>
+    <cell name="Телефон">
+      <value>8(3467)32-89-01</value>
+    </cell>
+    <cell name="ФИО руководителя">
+      <value>Мазурин Игорь Юрьевич</value>
+    </cell>
+    <cell name="Сайт">
+      <value>gkh93.gkh-site.ru</value>
+    </cell>
+    <cell name="Электронная почта">
+      <value>newcity2007@rambler.ru</value>
+    </cell>
+    <cell name="Наименование геообъекта">
+      <value>ООО"Новый город"</value>
+    </cell>
+    <cell name="Геокоординаты">
+      <value>61.000222, 69.065920</value>
+    </cell>
+  </string>
+  <string number="5">
+    <cell name="Наименование организации">
+      <value>Муниципальное водоканализационное предпиятие</value>
+    </cell>
+    <cell name="Улица">
+      <value>Сирина</value>
+    </cell>
+    <cell name="Дом">
+      <value>59</value>
+    </cell>
+    <cell name="Телефон">
+      <value>8(3467)30-01-80</value>
+    </cell>
+    <cell name="ФИО руководителя">
+      <value>Молчанов Николай Николаевич</value>
+    </cell>
+    <cell name="Сайт">
+      <value>vodahm.ru</value>
+    </cell>
+    <cell name="Электронная почта">
+      <value>vodokanal@vodahm.ru</value>
+    </cell>
+    <cell name="Наименование геообъекта">
+      <value>МП "Водоканал"</value>
+    </cell>
+    <cell name="Геокоординаты">
+      <value>61.004396, 69.000172</value>
+    </cell>
+  </string>
+  <string number="6">
+    <cell name="Наименование организации">
+      <value>Муниципальное предприятие "Жилищно-коммунальное управление"</value>
+    </cell>
+    <cell name="Улица">
+      <value>Сутормина</value>
+    </cell>
+    <cell name="Дом">
+      <value>20</value>
+    </cell>
+    <cell name="Телефон">
+      <value>8(3467)33-65-65</value>
+    </cell>
+    <cell name="ФИО руководителя">
+      <value>Улитин Сергей Олегович</value>
+    </cell>
+    <cell name="Сайт">
+      <value>мпжку.рф</value>
+    </cell>
+    <cell name="Электронная почта">
+      <value>gkuhmao@mail.ru</value>
+    </cell>
+    <cell name="Наименование геообъекта">
+      <value>МП "ЖКУ"</value>
+    </cell>
+    <cell name="Геокоординаты">
+      <value>60.982800, 69.056523</value>
+    </cell>
+  </string>
+  <string number="7">
+    <cell name="Наименование организации">
+      <value>Общество с ограниченной ответственностью "Комфорт+"</value>
+    </cell>
+    <cell name="Улица">
+      <value>Сирина</value>
+    </cell>
+    <cell name="Дом">
+      <value>68 Б</value>
+    </cell>
+    <cell name="Телефон">
+      <value>8(3467)30-14-49</value>
+    </cell>
+    <cell name="ФИО руководителя">
+      <value>Токарь Сергей Владимирович</value>
+    </cell>
+    <cell name="Сайт">
+      <value>komfort-plus.i-gkh.ru</value>
+    </cell>
+    <cell name="Электронная почта">
+      <value>st1960.tokar@yandex.ru</value>
+    </cell>
+    <cell name="Наименование геообъекта">
+      <value>ООО"Комфорт+"</value>
+    </cell>
+    <cell name="Геокоординаты">
+      <value>61.004414, 68.997288</value>
+    </cell>
+  </string>
+  <string number="8">
+    <cell name="Наименование организации">
+      <value>Общество с ограниченной ответственностью "Атлант Сервис"</value>
+    </cell>
+    <cell name="Улица">
+      <value>Калинина</value>
+    </cell>
+    <cell name="Дом">
+      <value>26</value>
+    </cell>
+    <cell name="Телефон">
+      <value>8(3467)32-23-52</value>
+    </cell>
+    <cell name="ФИО руководителя">
+      <value>Белкин Дмитрий Анатольевич</value>
+    </cell>
+    <cell name="Сайт">
+      <value>-</value>
+    </cell>
+    <cell name="Электронная почта">
+      <value>atlant-hm@yandex.ru</value>
+    </cell>
+    <cell name="Наименование геообъекта">
+      <value>ООО"Атлант Сервис"</value>
+    </cell>
+    <cell name="Геокоординаты">
+      <value>61.004867, 69.032610</value>
+    </cell>
+  </string>
+  <string number="9">
+    <cell name="Наименование организации">
+      <value>Общество с ограниченной ответственностью ЮграТеплоГазСтрой</value>
+    </cell>
+    <cell name="Улица">
+      <value>Рябиновая</value>
+    </cell>
+    <cell name="Дом">
+      <value>13 А</value>
+    </cell>
+    <cell name="Телефон">
+      <value>8(3467)960-411</value>
+    </cell>
+    <cell name="ФИО руководителя">
+      <value>Ковалев Алексей Иванович</value>
+    </cell>
+    <cell name="Сайт">
+      <value>utgs.tm-ss.ru</value>
+    </cell>
+    <cell name="Электронная почта">
+      <value>ugratgs@yandex.ru</value>
+    </cell>
+    <cell name="Наименование геообъекта">
+      <value>ООО"ЮграТеплоГазСтрой"</value>
+    </cell>
+    <cell name="Геокоординаты">
+      <value>60.987945, 69.042843</value>
+    </cell>
+  </string>
+  <string number="10">
+    <cell name="Наименование организации">
+      <value>Общество с ограниченной ответственностью УК "Стрела"</value>
+    </cell>
+    <cell name="Улица">
+      <value>Дунина-Горкавича</value>
+    </cell>
+    <cell name="Дом">
+      <value>7</value>
+    </cell>
+    <cell name="Телефон">
+      <value>8(3467)32-66-86</value>
+    </cell>
+    <cell name="ФИО руководителя">
+      <value>Федоров Алексей Михайлович</value>
+    </cell>
+    <cell name="Сайт">
+      <value>-</value>
+    </cell>
+    <cell name="Электронная почта">
+      <value>uk_strela@bk.ru</value>
+    </cell>
+    <cell name="Наименование геообъекта">
+      <value>ООО "Стрела"</value>
+    </cell>
+    <cell name="Геокоординаты">
+      <value>61.000052, 69.063943</value>
+    </cell>
+  </string>
+  <string number="11">
+    <cell name="Наименование организации">
+      <value>Общество с ограниченной ответственностью "Северный дом"</value>
+    </cell>
+    <cell name="Улица">
+      <value>Югорская</value>
+    </cell>
+    <cell name="Дом">
+      <value>11</value>
+    </cell>
+    <cell name="Телефон">
+      <value>8(3467) 31-84-70</value>
+    </cell>
+    <cell name="ФИО руководителя">
+      <value>Дабин Сергей Александрович</value>
+    </cell>
+    <cell name="Сайт">
+      <value>-</value>
+    </cell>
+    <cell name="Электронная почта">
+      <value>dabins@bk.ru</value>
+    </cell>
+    <cell name="Наименование геообъекта">
+      <value>ООО "Северный дом"</value>
+    </cell>
+    <cell name="Геокоординаты">
+      <value>60.989320, 69.044854</value>
+    </cell>
+  </string>
+  <string number="12">
+    <cell name="Наименование организации">
+      <value>Общество с ограниченной ответсвенностью "Чистый дом"</value>
+    </cell>
+    <cell name="Улица">
+      <value>Доронина</value>
+    </cell>
+    <cell name="Дом">
+      <value>26</value>
+    </cell>
+    <cell name="Телефон">
+      <value>8(3467) 300-475</value>
+    </cell>
+    <cell name="ФИО руководителя">
+      <value>Паршуков Иван Николаевич</value>
+    </cell>
+    <cell name="Сайт">
+      <value>чистыйдом86.рф</value>
+    </cell>
+    <cell name="Электронная почта">
+      <value>cleardom@mail.ru</value>
+    </cell>
+    <cell name="Наименование геообъекта">
+      <value>ООО"Чистый дом"</value>
+    </cell>
+    <cell name="Геокоординаты">
+      <value>61.004200, 69.038575</value>
+    </cell>
+  </string>
+  <string number="13">
+    <cell name="Наименование организации">
+      <value>Общество с ограниченной ответственностью "Иртыш плюс"</value>
+    </cell>
+    <cell name="Улица">
+      <value>Ямская</value>
+    </cell>
+    <cell name="Дом">
+      <value>14</value>
+    </cell>
+    <cell name="Телефон">
+      <value>8(3467) 926-153</value>
+    </cell>
+    <cell name="ФИО руководителя">
+      <value>Дабин Сергей Александрович</value>
+    </cell>
+    <cell name="Сайт">
+      <value>-</value>
+    </cell>
+    <cell name="Электронная почта">
+      <value>dabins@bk.ru</value>
+    </cell>
+    <cell name="Наименование геообъекта">
+      <value>ООО"Иртыш плюс"</value>
+    </cell>
+    <cell name="Геокоординаты">
+      <value>60.975554, 69.018102</value>
+    </cell>
+  </string>
+  <string number="14">
+    <cell name="Наименование организации">
+      <value>Общество с ограниченной ответственностью " Мегаполис+"</value>
+    </cell>
+    <cell name="Улица">
+      <value>Энгельса</value>
+    </cell>
+    <cell name="Дом">
+      <value>35 оф.1</value>
+    </cell>
+    <cell name="Телефон">
+      <value>8-908-88-00-568</value>
+    </cell>
+    <cell name="ФИО руководителя">
+      <value>Белкин Дмитрий Анатольевич</value>
+    </cell>
+    <cell name="Сайт">
+      <value>megapolis-86.ru</value>
+    </cell>
+    <cell name="Электронная почта">
+      <value>megapolis-86@yandex.ru</value>
+    </cell>
+    <cell name="Наименование геообъекта">
+      <value>ООО"Мегаполис+"</value>
+    </cell>
+    <cell name="Геокоординаты">
+      <value>61.006682, 69.003792</value>
+    </cell>
+  </string>
+</root_table>

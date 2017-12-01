@@ -9,8 +9,11 @@
     "dev": "nodemon -q server.js"
   },
   "dependencies": {
+    "axios": "^0.17.1",
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
-    "nodemon": "^1.12.1"
+    "nedb": "^1.8.0",
+    "nodemon": "^1.12.1",
+    "xml-parser": "^1.2.1"
   }
 }
