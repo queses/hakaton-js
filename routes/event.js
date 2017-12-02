@@ -16,6 +16,7 @@ router.post('/event', async (req, res) => {
         console.log("USER", users)
         users.map((user) => {
             let mes = `Ваша УК извещает: ${event.title}. ${event.descr}`
+            // СМС
             const responce = axios.get('https://smsc.ru/sys/send.php', { params: {
                 login: 'queses',
                 psw: 'f22bfae8d84fbe764c9fbe1d7a450445',
@@ -27,6 +28,14 @@ router.post('/event', async (req, res) => {
             }).then(resp => {
                 // console.log(resp)
             })
+            // Телеграм
+            const bot = require('../utils/bot')
+            const chatId = require('../utils/bot/chatId')
+            if(user.phone){
+                bot.telegram.sendMessage(chatId, mes)
+                res.sendStatus('200')
+            }
+            
         })
     })
 })
