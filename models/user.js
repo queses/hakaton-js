@@ -1,10 +1,10 @@
-class House {
-    constructor (fName, lName, phone, house_id) {
+class User {
+    constructor (fName, lName, phone, houseId) {
         this.fName = fName
         this.lName = lName
         this.phone = phone
-        this.house_id = house_id
+        this.houseId = houseId
     }
 }
 
-module.exports = House
+module.exports = User

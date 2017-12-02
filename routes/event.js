@@ -2,6 +2,7 @@ const express = require('express')
 const axios = require('axios')
 
 const db = require('../utils/get_db')
+const bot = require('../utils/bot')
 
 const router = new express.Router()
 
@@ -10,34 +11,37 @@ router.post('/event', async (req, res) => {
         res.sendStatus(400);
         return
     }
-    db.insert({ _cat: 'event', ...req.body.event }, async (err, event) => {
-        res.json({ ok: true });
-        const users = await getAllUsers(event)
-        console.log("USER", users)
-        users.map((user) => {
-            let mes = `Ваша УК извещает: ${event.title}. ${event.descr}`
-            // СМС
-            const responce = axios.get('https://smsc.ru/sys/send.php', { params: {
-                login: 'queses',
-                psw: 'f22bfae8d84fbe764c9fbe1d7a450445',
-                phones: user.phone,
-                mes,
-                charset: 'utf-8'
-            }}).catch(err => {
-                console.log(err)
-            }).then(resp => {
-                // console.log(resp)
-            })
-            // Телеграм
-            const bot = require('../utils/bot')
-            const chatId = require('../utils/bot/chatId')
-            if(user.phone){
-                bot.telegram.sendMessage(chatId, mes)
-                res.sendStatus('200')
-            }
-            
+    const event = await db.insert({ _cat: 'event', ...req.body.event })
+    const users = await db.find({ _cat: 'user' })
+    console.log("USER", users)
+    let mes = `Ваша УК извещает: ${event.title}. ${event.descr}`
+    users.map((user) => {
+        if (event.dateTo && event.dateFrom) {
+            mes = mes.concat(`. С ${event.dateFrom} по ${event.dateTo}`)
+        }
+        // СМС
+        const smsParams = {
+            login: 'queses',
+            psw: 'f22bfae8d84fbe764c9fbe1d7a450445',
+            phones: user.phone,
+            mes,
+            charset: 'utf-8'
+        }
+        const responce = axios.get('https://smsc.ru/sys/send.php', { params: smsParams }).catch(err => {
+            console.log(err)
+        }).then(resp => {
+            // console.log(resp)
         })
+
+        // Телеграм
+        console.log(user)
+        if (user.chatId) {
+            bot.sendMessage(user.chatId, mes).then((p) => {
+                console.log(p)
+            })
+        }
     })
+    res.json({ ok: true });
 })
 
 router.get('/event', async (req, res) => {

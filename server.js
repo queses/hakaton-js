@@ -3,7 +3,8 @@ const bodyParser = require('body-parser')
 const cors = require('cors')
 
 const Event = require('./models/event')
-const routeEvent = require('./routes/event') 
+const routeEvent = require('./routes/event')
+const routeResponse = require('./routes/response')
 const db = require("./utils/get_db")
 
 const app = express()
@@ -12,10 +13,11 @@ const app = express()
 var urlencodedParser = bodyParser.urlencoded({extended: true});
 
 app.use(express.static(__dirname + "/static"))
-app.use(cors)
+app.use(cors())
 app.use(urlencodedParser)
-app.use(bodyParser.json());
+app.use(bodyParser.json())
 app.use(routeEvent)
+app.use(routeResponse)
 
 app.get('/', (req, res) => {
     res.send('Empty responce')

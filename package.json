@@ -15,6 +15,7 @@
     "express": "^4.16.2",
     "forever": "^0.15.3",
     "nedb": "^1.8.0",
+    "nedb-promise": "^2.0.1",
     "node-telegram-bot-api": "^0.29.0",
     "nodemon": "^1.12.1",
     "xml-parser": "^1.2.1"

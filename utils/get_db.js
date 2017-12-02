@@ -1,4 +1,4 @@
-const nedb = require('nedb')
+const nedb = require('nedb-promise')
 
 const db = new nedb({ filename: './data/db.json', autoload: true })
 
