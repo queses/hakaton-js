@@ -1,9 +1,10 @@
 const express = require('express')
 const bodyParser = require('body-parser')
+const cors = require('cors')
+
 const Event = require('./models/event')
 const routeEvent = require('./routes/event') 
 const db = require("./utils/get_db")
-
 
 const app = express()
  
@@ -11,18 +12,16 @@ const app = express()
 var urlencodedParser = bodyParser.urlencoded({extended: true});
 
 app.use(express.static(__dirname + "/static"))
+app.use(cors)
 app.use(urlencodedParser)
 app.use(bodyParser.json());
 app.use(routeEvent)
 
 app.get('/', (req, res) => {
-    res.send(':)')
+    res.send('Empty responce')
 })
 
 app.listen(3000, err => {
-    if (err) {
-        console.log(err)   
-        return
-    }
+    if (err) throw err
     console.log("Server started at localhost:3000")
 })
