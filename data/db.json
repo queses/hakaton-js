@@ -4,6 +4,7 @@
 {"title":"Общество с ограниченной ответственностью ЮграТеплоГазСтрой","phone":"8(3467)960-411","directorFName":"Ковалев","directorLName":"Иванович","directorEmail":"ugratgs@yandex.ru","_cat":"uk","_id":"4vUREFHhEP6xM8tT"}
 {"_cat":"event","title":"Доем козлов","descr":"Очень сильно","_id":"5R4LKzVWfyWPeDnO"}
 {"_cat":"event","title":"Доем козлов","descr":"Очень сильно","_id":"5XoT90vluJ1oFYst"}
+{"_cat":"response","text":"Уборка снега прошла некачественно. Плохо почистили снег на парковке возле баскетбольной площадки. Прошу разобраться и принять меры.","userId":"ouc7T2D9oAf354ob","_id":"6Vd8DgihehWLh633"}
 {"_cat":"event","title":"Доем козлов","descr":"Очень сильно","_id":"7FxJOv0JwqMNaSde"}
 {"_cat":"event","title":"asdasdsa","descr":"asdasda","houses":[],"_id":"ADU4d2NTK0VtPB3s"}
 {"_cat":"event","title":"aasdasd","descr":"dasdasdasd","houses":[],"_id":"AXjtmRvNaimyMkoC"}
@@ -41,6 +42,8 @@
 {"_cat":"event","title":"asdsadasd","descr":"dasds","houses":[],"_id":"e9SKaFllwg19TtnF"}
 {"_cat":"event","title":"Доем козлов","descr":"Очень сильно","_id":"f0RphDE7qMv7eV8Z"}
 {"_cat":"event","title":"Доем козлов","descr":"Очень сильно","_id":"f70QasCa89FUDkBS"}
+{"_cat":"event","title":"Уборка мусора","descr":"","houses":[],"dateFrom":"2017/12/2","dateTo":"2018/1/7","_id":"fOhV7y7HxiT26hDT"}
+{"_cat":"response","text":"Спасибо за оперативную реакцию, водоснабжение в доме восстановлено, даже есть горячая вода!","userId":"ouc7T2D9oAf354ob","_id":"fgxwhHPxcgDTFfgJ"}
 {"_cat":"event","title":"asdasd","descr":"asdasd","houses":[],"dateFrom":"2017/12/2","dateTo":"2018/1/1","_id":"gwv4rVrnIaGVpTtC"}
 {"chatId":337283924,"_id":"hIn5pLOfmVlO2Atj"}
 {"_cat":"event","title":"asdsadasd","descr":"dasds","houses":[],"_id":"i1Nj9nkq8GYYFVnM"}
@@ -58,9 +61,20 @@
 {"_cat":"event","title":"asdsa","descr":"dasds","houses":[],"_id":"u6ip5bi2iiL45afG"}
 {"_cat":"event","title":"Доем козлов","descr":"Очень сильно","_id":"uyuSUNXXCiw1q67y"}
 {"_cat":"event","title":"asdsa","descr":"dasds","houses":[],"_id":"vwM8kHumQjiRk7hB"}
+{"_cat":"response","text":"Очень хорошо убрали!","userId":"ouc7T2D9oAf354ob","_id":"w20rk1OJDs4eYh9l"}
 {"_cat":"event","title":"Доем козлов","descr":"Очень сильно","_id":"wHVxT6dQZxYgrZBf"}
 {"_cat":"event","title":"dasdadsd","descr":"adasdads","houses":[],"dateFrom":"2017/12/6","dateTo":"2017/12/16","_id":"wqMUubouZf0Piols"}
 {"title":"Акционерное общество \"Управление теплоснабжения и инженерных сетей\"","phone":"8(3467)32-69-71","directorFName":"Горбачев","directorLName":"Иванович","directorEmail":"uts@uts-hm.ru","_cat":"uk","_id":"xqgzZh36LSNOBPie"}
 {"_cat":"event","title":"asdsa","descr":"dasds","houses":[],"_id":"zroRj0XFFEYwjoHI"}
-{"_cat":"response","text":"Уборка снега прошла некачественно. Плохо почистили снег на парковке возле баскетбольной площадки. Прошу разобраться и принять меры.","userId":"ouc7T2D9oAf354ob","_id":"6Vd8DgihehWLh633"}
-{"_cat":"response","text":"Спасибо за оперативную реакцию, водоснабжение в доме восстановлено, даже есть горячая вода!","userId":"ouc7T2D9oAf354ob","_id":"fgxwhHPxcgDTFfgJ"}
+{"_cat":"event","title":"asdsad","descr":"","houses":[],"_id":"mAQbHpXicfkUj1cl"}
+{"_cat":"event","title":"Проверка","descr":"123","houses":[],"_id":"GhMf3a5GncU1tw2J"}
+{"_cat":"event","title":"Проверка 2","descr":"123","houses":[],"_id":"AktuNSYAUHqjqkY7"}
+{"_cat":"event","title":"Проверка 3","descr":"123","houses":[],"_id":"KQSvgOMIJ9su6hh8"}
+{"_cat":"event","title":"Уборка снега","descr":"Просьба убрать машины","houses":[],"dateFrom":"2017/12/2","dateTo":"2017/12/9","_id":"6D6AqcZTvlbYFl8I"}
+{"_cat":"response","text":"Спасибо, двор очень чистый!","userId":"ouc7T2D9oAf354ob","_id":"M1WlFsSGtiYmdBEW"}
+{"_cat":"event","title":"Чистить говно","descr":"Вилкой","houses":[],"dateFrom":"2017/12/2","dateTo":"2018/1/13","_id":"VWgjmFvfBxDV2PCa"}
+{"_cat":"response","text":"Спасибо, двор очень чистый!","userId":"ouc7T2D9oAf354ob","_id":"HbhWajs0aYMwJ5Nz"}
+{"_cat":"event","title":"Уборка","descr":"Говна","houses":[],"dateFrom":"2017/12/2","dateTo":"2018/1/13","_id":"pMEyEyxoKuSSQmf6"}
+{"_cat":"event","title":"Уборка","descr":"говна","houses":[],"dateFrom":"2017/12/2","dateTo":"2018/1/13","_id":"BtdsWpXwTEIasGdr"}
+{"_cat":"event","title":"Уборка снега","descr":"Просьба убрать машины","houses":[],"dateFrom":"2017/12/2","dateTo":"2017/12/6","_id":"4T47h7ptXvtKevQA"}
+{"_cat":"response","text":"Спасибо, двор очень чистый!","userId":"ouc7T2D9oAf354ob","_id":"mTBamSUfkEWMWNkY"}

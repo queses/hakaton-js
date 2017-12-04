@@ -5,6 +5,7 @@ const cors = require('cors')
 const Event = require('./models/event')
 const routeEvent = require('./routes/event')
 const routeResponse = require('./routes/response')
+const routeUk = require('./routes/uk')
 const db = require("./utils/get_db")
 
 const app = express()
@@ -18,6 +19,7 @@ app.use(urlencodedParser)
 app.use(bodyParser.json())
 app.use(routeEvent)
 app.use(routeResponse)
+app.use(routeUk)
 
 app.get('/', (req, res) => {
     res.send('Empty responce')
